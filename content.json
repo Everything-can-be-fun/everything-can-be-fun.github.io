@@ -1,0 +1,190 @@
+{
+  "profile": {
+    "name": "Mr. White",
+    "intro": "<strong>Master’s Student · Harbin Engineering University (HEU)</strong>. I study Information and Communication Engineering, with a research focus on 3D scene understanding and point cloud semantic segmentation. My technical interests also include Linux, software development, and embedded systems. I use this website to share selected research, hands-on work, and technical notes.",
+    "github": "",
+    "photo": "assets/mr-white-avatar.png",
+    "email": "bgb@hrbeu.edu.cn"
+  },
+  "interests": [
+    {
+      "title": "3D Point Cloud Understanding",
+      "description": "Semantic segmentation of 3D scenes, point-cloud representations, local geometry, and feature interaction."
+    }
+  ],
+  "research": [
+    {
+      "status": "RESEARCH FOCUS · ONGOING",
+      "title": "Representation and Feature Learning for Point Cloud Segmentation",
+      "description": "Exploring how point-based, graph-based, voxel-based and superpoint-based representations influence geometric feature extraction and semantic segmentation. Current work includes literature analysis, baseline assessment, and experiment design. No unpublished result is claimed here.",
+      "tags": [
+        "3D Vision",
+        "Point Clouds",
+        "Semantic Segmentation",
+        "PyTorch"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "key": "all",
+      "label": "All"
+    },
+    {
+      "key": "research",
+      "label": "3D Vision"
+    },
+    {
+      "key": "linux",
+      "label": "Linux & Software"
+    },
+    {
+      "key": "embedded",
+      "label": "Embedded"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "point-cloud-workspace",
+      "category": "research",
+      "category_label": "3D VISION",
+      "date": "Research · Ongoing",
+      "title": "Point Cloud Segmentation Research",
+      "description": "Research workflow covering technical surveys, comparisons of representative architectures, baseline evaluation planning, and experimental design for point cloud semantic segmentation.",
+      "tags": [
+        "PyTorch",
+        "Point Cloud",
+        "3D Segmentation"
+      ]
+    },
+    {
+      "slug": "linux-engineering",
+      "category": "linux",
+      "category_label": "LINUX",
+      "date": "Hands-on Learning · Ongoing",
+      "title": "Linux Systems & Engineering Practice",
+      "description": "Practical Linux learning on Ubuntu: shell commands, file systems and permissions, network configuration, development tools, remote access and reproducible notes.",
+      "tags": [
+        "Ubuntu",
+        "Shell",
+        "Git",
+        "Networking"
+      ]
+    },
+    {
+      "slug": "embedded-systems",
+      "category": "embedded",
+      "category_label": "EMBEDDED",
+      "date": "Skills · Prior Experience",
+      "title": "Microcontroller & Embedded Foundations",
+      "description": "Experience with 8051 microcontroller programming and interrupt mechanisms, with introductory STM32 knowledge and an electronics background. A complete public project will be added only after implementation and verification.",
+      "tags": [
+        "C",
+        "8051",
+        "STM32",
+        "Interrupts"
+      ]
+    }
+  ],
+  "experience": [],
+  "education": [
+    {
+      "date": "Master’s student · Year 2 (2026)",
+      "title": "M.S. in Information and Communication Engineering",
+      "description": "Harbin Engineering University (HEU), China. Research focus: 3D point cloud semantic segmentation and 3D scene understanding."
+    },
+    {
+      "date": "Bachelor’s degree",
+      "title": "Undergraduate Studies",
+      "description": "Background in electronics, digital and analog circuits, microcontroller programming, and fundamental engineering practices. Institution and dates are intentionally not published."
+    }
+  ],
+  "publications": [],
+  "research_status_note": "Research outputs will be listed here after they are publicly available.",
+  "project_details": {
+    "point-cloud-workspace": {
+      "status": "Ongoing research · No claimed publication",
+      "summary": "Research and literature-driven engineering workflow for 3D point cloud semantic segmentation.",
+      "sections": [
+        {
+          "title": "Research Questions",
+          "paragraphs": [
+            "How should 3D point clouds be represented? How can local geometric priors be integrated? Which feature interaction mechanism is appropriate for a given segmentation task?"
+          ]
+        },
+        {
+          "title": "Technical Background",
+          "paragraphs": [
+            "Studying point-based, graph-based, sparse voxel and superpoint approaches, alongside convolutional and attention-based feature learning. Familiar with PyTorch and CNN-based development."
+          ]
+        },
+        {
+          "title": "Current Work",
+          "paragraphs": [
+            "Literature review, architecture comparison, baseline evaluation and experiment planning. Results will be posted only after verification and permission to disclose."
+          ]
+        },
+        {
+          "title": "Public Artifacts",
+          "paragraphs": [
+            "Publications, code, figures and benchmarks will be linked once they are available and approved for sharing."
+          ]
+        }
+      ]
+    },
+    "linux-engineering": {
+      "status": "Hands-on learning · Ongoing",
+      "summary": "A personal learning environment used to practice real Linux system and developer workflows.",
+      "sections": [
+        {
+          "title": "Environment",
+          "paragraphs": [
+            "Ubuntu 24.04 LTS workstation used for command-line learning, software tooling and remote development."
+          ]
+        },
+        {
+          "title": "Hands-on Topics",
+          "paragraphs": [
+            "Navigating the file system, viewing and searching files, shell redirection, users and permissions, Wi-Fi configuration, Git, VS Code and remote access."
+          ]
+        },
+        {
+          "title": "Learning Approach",
+          "paragraphs": [
+            "Maintain cumulative, topic-based Markdown notes; validate commands through practical experiments; record important system milestones rather than every troubleshooting step."
+          ]
+        },
+        {
+          "title": "Publication Policy",
+          "paragraphs": [
+            "Selected reusable technical notes may be published later. Local paths, network identifiers and configuration secrets remain private."
+          ]
+        }
+      ]
+    },
+    "embedded-systems": {
+      "status": "Technical foundations · Not a completed public project",
+      "summary": "Prior microcontroller and electronics training, with ongoing interest in embedded software development.",
+      "sections": [
+        {
+          "title": "Background",
+          "paragraphs": [
+            "Familiar with 8051 microcontroller development and interrupt handling; introductory STM32 experience."
+          ]
+        },
+        {
+          "title": "Engineering Foundations",
+          "paragraphs": [
+            "C programming and coursework in analog/digital electronics provide a basis for embedded development."
+          ]
+        },
+        {
+          "title": "Next Steps",
+          "paragraphs": [
+            "A future demonstrable project may integrate peripherals, task scheduling, interfaces and measurable tests. No project completion is asserted."
+          ]
+        }
+      ]
+    }
+  }
+}
